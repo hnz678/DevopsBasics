@@ -10,6 +10,8 @@ import static org.hamcrest.CoreMatchers.is;
 public class TestGreeter {
 
 	  private Greeter greeter;
+	  
+	  private String name;
 
 	  @Before
 	  public void setup() {
